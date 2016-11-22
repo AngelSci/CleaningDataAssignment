@@ -1,0 +1,19 @@
+The input data 
+features: the feature data names
+activity_labels: the six types of activity categorized in the source data
+activity_train_data: the activity data recorded for each measuement in the training data
+subject_train: the subject wearing the device for each measurement in the traiing data
+trainData: the measurements recorded in the training data
+activity_test_data: the activity data recorded for each measuement in the test data
+subject_test: the subject wearing the device for each measurement in the test data
+testData: the measurements recorded in the test data
+
+merged_subjects: the merged subject data
+activity_data_merged: the merged activity data
+merged_data: the merged measurement data
+data_MeanStd: data frame containing only mean ans standard deviation measurements
+tidyData: the data frame consisting of the merged merged_subjects, activity_data merged, and data_MeanStd dataframes
+
+tidySet2: the tidyData data frame split by activity
+
+summarySet: the tidySet2 data aggregated by individual and activity type
